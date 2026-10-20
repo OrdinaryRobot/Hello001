@@ -1,0 +1,28 @@
+# ==== 编译器 / 工具链（体积大，不入库）====
+/mingw64/
+/_dl/
+
+# ==== 临时目录 ====
+/tmp/
+
+# ==== 编译产物（可重新生成，不入库）====
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+*.dll
+*.a
+*.lib
+*.exp
+*.gch
+/build/
+/C/build/
+tempCodeRunnerFile*
+
+# ==== IDE / 编辑器 ====
+.idea/
+.vs/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake

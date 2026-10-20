@@ -1,4 +1,7 @@
 #include <stdio.h>
 int main() {
-    printf("Hello World你好!\n");
+    printf("abcdef\b");
+    printf("12345");
+
+    return 0;
 }

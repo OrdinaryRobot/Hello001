@@ -1,18 +1,21 @@
 {
-  "configurations": [
-    {
-      "name": "windows-gcc-x64",
-      "includePath": [
-        "${workspaceFolder}/**"
-      ],
-      "compilerPath": "D:/x86_64-16.2.0-release-mcf-seh-ucrt-rt_v14-rev1/mingw64/bin/gcc.exe",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "windows-gcc-x64",
-      "compilerArgs": [
-        ""
-      ]
-    }
-  ],
-  "version": 4
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Win32-GCC",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG"
+            ],
+            "compilerPath": "D:/code/mingw64/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compileCommands": [
+                "${workspaceFolder}/CppLearn/cmake-build-debug/compile_commands.json"
+            ]
+        }
+    ]
 }
